@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
+
+@import url("components/card.css");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css"); 
+
+body {
+	background-color: #B0C5A4;
+	color: rgb(50,50,50);
+	font-family: "Lora", serif;
+	font-size: 17px;
+}
+body {
+	background-color: #B0C5A4;
+	color: rgb(50,50,50);
+	font-family: "Lora", serif;
+	font-size: 17px    
+}
+
+h1 {
+	color: #2C7865;
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-size: 40px;
+	font-family: "Rammetto One", sans-serif;
+	text-shadow: 0px 10px 30px #12372A;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	text-decoration: bold;
+	color: #B0C5A4;
+}
+p {
+	color: #FC819E; 
+	text-align: center;
+	font-size: 10px; 
+}
+a {
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.truc {
+	position: relative;
+	text-align: center;
+}
+.text-hover {
+	position: absolute;
+	top: 0;
+	left:0;
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+	text-align: center;
+}
+.text-hover {
+	opacity: 0;
+}
+.truc:hover .text{
+	opacity: 0;
+	text-align: center;
+}
+.truc:hover .text-hover {
+	opacity: 1;
+	text-align: center;
